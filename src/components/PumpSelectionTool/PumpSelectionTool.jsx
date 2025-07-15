@@ -4,7 +4,7 @@ import { ProductWizard } from '../Tool/ProductWizard'
 export const PumpSelectionTool = () => {
   return (
     <div>
-      <h1>PumpSelectionTool</h1>
+      <h1>Pump Selection Tool</h1>
       <ProductWizard/>
     </div>
   )
