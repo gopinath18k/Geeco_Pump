@@ -20,6 +20,7 @@ export const Navbar = () => {
   return (
     <section className="Navbar">
         <div className="section__Navbar">
+            {/* <div className="Inner__section__Navbar"> */}
             <div className="Navbar__container col-6 col-sm-6 col-md-6 col-lg-2">
                 <img src={Logo} alt="" className='logo__image'/>
             </div>
@@ -34,6 +35,7 @@ export const Navbar = () => {
                     <Link to="/pump-selection-tool" className="Nav_Pump_Selection_Tool">Pump Selection Tool</Link>
                     <Link to="/warranty-registration" className="Nav_Warranty_Registration text__menu__red">Warranty Registration</Link>
                 </div>     
+                {/* </div> */}
                 <div className="Navbar__contacts col-4">
                     <div className="Navbar_contactdetails">
                         <IoIosCall className='Navbar_callIcon'/>
