@@ -8,7 +8,7 @@ export const Contactus = () => {
          <div className="containerfluid contact-first-container">
             <div className="contact-first-inner-container">
                 <h1 className='contact-first-head'>Love To Hear From You,</h1>
-                <h1 className='contact-first-head'>Get In Touch</h1>
+                <h1 className='contact-first-head'>Get In Touch .</h1>
                 <form action="" className='mt-5'>
                     <div className="row">
                         <div className="col">
