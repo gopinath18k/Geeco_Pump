@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-first-container{
+    background-color: --primary-color;
+    margin-top: 50px;
+}
+.contact-first-inner-container{
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px 0;
+    /* border: 2px solid red; */
+}
+.contact-first-head{
+    font-family: var(--main-font);
+
+}
+.contact-input-box{
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 3px;
+}
+.contact-label-field{
+    font-family: var(--main-font);
+
+}
+.contact-submit-btn{
+    padding: 8px 100px;
+    border: none;
+    background-color: var(--bg-color);
+    font-family: var(--main-font);
+    font-size: 20px;
+    color: var(--banner-text-color);
+    border-radius: 2px;
+}
