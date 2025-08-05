@@ -1,6 +1,7 @@
- import React, { useState } from 'react'
+//  import React, { useState } from 'react'
  import "./Home.css"
  import Pumpbanner from "../../images/pump-banner.png";
+//  import Carousel from "../Carousel/Carousel"
 export const Home = () => {
     
   return (
@@ -35,6 +36,7 @@ export const Home = () => {
               <div className="container-fluid home-section-three-container">
                 <div className="home-section-three-inner-container">
                   <h2>Sectors we serve</h2>
+                  {/* <Carousel/> */}
                 </div>
               </div>
            </>
