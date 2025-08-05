@@ -45,7 +45,7 @@ export const ProductWizard = () => {
             <button key={option} onClick={() => handleSelect("type", option)}>{option}</button>
           ))}
         </>
-      )}
+      )} 
 
       {step === 3 && (
         <>
